@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movie_archive>
+  <movie>
+    <id>FILM-12345</id>
+    <title>Inception</title>
+    <year>2010</year>
+    <genre>Sci-Fi</genre>
+    <duration>148</duration>
+    <directors>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+    </directors>
+    <actors>
+      <name>Leonardo</name>
+      <surname>DiCaprio</surname>
+      <role>Dom Cobb</role>
+    </actors>
+    <reviews>
+      <date>2010-07-16</date>
+      <rating>9</rating>
+      <text>Amazing movie with a mind-bending plot.</text>
+    </reviews>
+  </movie>
+</movie_archive>

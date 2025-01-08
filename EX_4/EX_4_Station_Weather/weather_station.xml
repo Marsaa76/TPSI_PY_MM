@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stazione_meteo>
+  <codice>METEO1234</codice>
+  <posizione>
+    <latitudine>43.716</latitudine>
+    <longitudine>10.396</longitudine>
+  </posizione>
+  <data>2025-01-06</data>
+  <rilevazioni>
+    <ora>08:00:00</ora>
+    <temperatura>12.5</temperatura>
+    <umidita>65</umidita>
+    <pressione>1013</pressione>
+    <vento>
+      <velocita>15</velocita>
+      <direzione>90</direzione>
+    </vento>
+    <pioggia>0.0</pioggia>
+  </rilevazioni>
+  <rilevazioni>
+    <ora>14:00:00</ora>
+    <temperatura>15.0</temperatura>
+    <umidita>55</umidita>
+    <pressione>1015</pressione>
+    <vento>
+      <velocita>10</velocita>
+      <direzione>180</direzione>
+    </vento>
+    <pioggia>0.1</pioggia>
+  </rilevazioni>
+</stazione_meteo>

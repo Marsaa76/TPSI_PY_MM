@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hotel>
+  <name>Grand Hotel</name>
+  <address>123 Main Street, Cityville</address>
+  <stars>5</stars>
+  <rooms>
+    <number>101</number>
+    <type>Single</type>
+    <price_per_night>100.0</price_per_night>
+  </rooms>
+  <rooms>
+    <number>102</number>
+    <type>Double</type>
+    <price_per_night>150.0</price_per_night>
+  </rooms>
+  <bookings>
+    <client_name>Jane Doe</client_name>
+    <check_in>2025-01-10</check_in>
+    <check_out>2025-01-15</check_out>
+    <room_number>101</room_number>
+    <email>jane.doe@example.com</email>
+    <total_cost>500.0</total_cost>
+  </bookings>
+</hotel>

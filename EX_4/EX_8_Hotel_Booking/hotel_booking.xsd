@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="hotel">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="address" type="xs:string"/>
+        <xs:element name="stars" type="xs:integer"/>
+        <xs:element name="rooms" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="number" type="xs:string"/>
+              <xs:element name="type" type="xs:string"/>
+              <xs:element name="price_per_night" type="xs:float"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="bookings" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="client_name" type="xs:string"/>
+              <xs:element name="check_in" type="xs:date"/>
+              <xs:element name="check_out" type="xs:date"/>
+              <xs:element name="room_number" type="xs:string"/>
+              <xs:element name="email" type="xs:string"/>
+              <xs:element name="total_cost" type="xs:float"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

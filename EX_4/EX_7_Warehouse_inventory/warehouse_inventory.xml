@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<warehouse>
+  <id>ABC1234</id>
+  <categories>
+    <category>Electronics</category>
+    <products>
+      <product_code>PRD-456-XYZ</product_code>
+      <description>Smartphone</description>
+      <price>699.99</price>
+      <quantity>50</quantity>
+      <expiration_date>2026-12-31</expiration_date>
+    </products>
+    <products>
+      <product_code>PRD-789-ABC</product_code>
+      <description>Laptop</description>
+      <price>999.99</price>
+      <quantity>30</quantity>
+    </products>
+  </categories>
+</warehouse>

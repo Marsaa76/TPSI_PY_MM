@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auto>
+  <classe>B</classe>
+  <marca>Fiat</marca>
+  <modello>Panda</modello>
+  <cilindrata>1242</cilindrata>
+  <potenza>51</potenza>
+  <alimentazione>benzina</alimentazione>
+  <passeggeri>5</passeggeri>
+  <volumeBagagliaio>225</volumeBagagliaio>
+  <agenzie denominazione="AutoNoleggi" citta="Milano"/>
+</auto>

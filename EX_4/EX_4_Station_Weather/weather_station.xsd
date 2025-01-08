@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="stazione_meteo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="codice" type="xs:string"/>
+        <xs:element name="posizione">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="latitudine" type="xs:float"/>
+              <xs:element name="longitudine" type="xs:float"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="data" type="xs:date"/>
+        <xs:element name="rilevazioni" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ora" type="xs:time"/>
+              <xs:element name="temperatura" type="xs:float"/>
+              <xs:element name="umidita" type="xs:integer"/>
+              <xs:element name="pressione" type="xs:integer"/>
+              <xs:element name="vento">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="velocita" type="xs:integer"/>
+                    <xs:element name="direzione" type="xs:integer"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="pioggia" type="xs:float"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

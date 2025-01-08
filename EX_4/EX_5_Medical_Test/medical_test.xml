@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<medical_results>
+  <patient>
+    <name>John</name>
+    <surname>Doe</surname>
+    <tax_code>ABCDEF12G34H567I</tax_code>
+    <sex>M</sex>
+    <age>45</age>
+  </patient>
+  <test>
+    <date>2025-01-06T09:00:00</date>
+    <operator_id>123456789</operator_id>
+    <instrument_ids>
+      <instrument_id>9876</instrument_id>
+    </instrument_ids>
+    <analysis>Glucose</analysis>
+    <result>5.4</result>
+    <unit>mmol/L</unit>
+    <reference_min>4.0</reference_min>
+    <reference_max>6.0</reference_max>
+  </test>
+  <test>
+    <date>2025-01-06T09:30:00</date>
+    <operator_id>123456789</operator_id>
+    <instrument_ids>
+      <instrument_id>1234</instrument_id>
+    </instrument_ids>
+    <analysis>Cholesterol</analysis>
+    <result>190.0</result>
+    <unit>mg/dL</unit>
+    <reference_min>125.0</reference_min>
+    <reference_max>200.0</reference_max>
+  </test>
+</medical_results>

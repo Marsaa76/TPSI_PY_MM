@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="medical_results">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="patient">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string"/>
+              <xs:element name="surname" type="xs:string"/>
+              <xs:element name="tax_code" type="xs:string"/>
+              <xs:element name="sex" type="xs:string"/>
+              <xs:element name="age" type="xs:integer"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="test" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="date" type="xs:dateTime"/>
+              <xs:element name="operator_id" type="xs:string"/>
+              <xs:element name="instrument_ids" minOccurs="0" maxOccurs="5">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="instrument_id" type="xs:integer"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="analysis" type="xs:string"/>
+              <xs:element name="result" type="xs:float"/>
+              <xs:element name="unit" type="xs:string"/>
+              <xs:element name="reference_min" type="xs:float"/>
+              <xs:element name="reference_max" type="xs:float"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

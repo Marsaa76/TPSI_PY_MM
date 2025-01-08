@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spedizione>
+  <localita>
+    <luogo>Pisa, aeroporto</luogo>
+    <data-ora>2022-03-07T12:00:15</data-ora>
+  </localita>
+  <localita>
+    <luogo>Pisa, stazione</luogo>
+    <data-ora>2022-03-07T18:00:30</data-ora>
+  </localita>
+  <localita>
+    <luogo>Livorno, stazione</luogo>
+    <data-ora>2022-03-07T22:15:45</data-ora>
+  </localita>
+</spedizione>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="auto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="classe" type="xs:string"/>
+        <xs:element name="marca" type="xs:string"/>
+        <xs:element name="modello" type="xs:string"/>
+        <xs:element name="cilindrata" type="xs:integer"/>
+        <xs:element name="potenza" type="xs:integer"/>
+        <xs:element name="alimentazione" type="xs:string"/>
+        <xs:element name="passeggeri" type="xs:integer"/>
+        <xs:element name="volumeBagagliaio" type="xs:integer"/>
+        <xs:element name="agenzie" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="denominazione" type="xs:string" use="required"/>
+            <xs:attribute name="citta" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
