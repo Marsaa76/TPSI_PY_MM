@@ -1,0 +1,15 @@
+{
+    "description": "Catalog of books in a library.",
+    "data": [
+        {
+            "title": "1984",
+            "authors": ["George Orwell"],
+            "genre": "Dystopian",
+            "ISBN": "9780451524935",
+            "publication_year": 1949,
+            "page_count": 328,
+            "language": "en"
+        }
+       
+    ]
+}
