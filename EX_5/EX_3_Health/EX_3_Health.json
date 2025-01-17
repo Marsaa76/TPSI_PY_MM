@@ -1,0 +1,17 @@
+{
+"description": "Health monitoring data.",
+"data": [
+    {
+        "timestamp": "2025-01-17T08:00:00Z",
+        "measurement_type": "Blood Pressure",
+        "value": "120/80",
+        "notes": "Normal reading."
+    },
+    {
+        "timestamp": "2025-01-17T10:00:00Z",
+        "measurement_type": "Heart Rate",
+        "value": 72,
+        "notes": "Resting heart rate."
+    }
+]
+}

@@ -1,0 +1,19 @@
+{
+    "description": "Package tracking data",
+    "data": [
+        {
+            "location": {
+                "city": "New York",
+                "country": "USA"
+            },
+            "timestamp": "2025-01-16T10:00:00Z"
+        },
+        {
+            "location": {
+                "city": "London",
+                "country": "UK"
+            },
+            "timestamp": "2025-01-17T12:30:00Z"
+        }
+    ]
+}
